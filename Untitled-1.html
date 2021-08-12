@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Calculatrice</h2>
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo"></p>
+        <script>
+            function myFunction() {
+                var x,y,z, oper;
+                x=prompt("Type first number");
+                y=prompt("Type second number");
+                oper=prompt("Type an operator");
+
+                
+                    if(oper=="*"){
+                        z=Number(x)*Number(y);
+                    }
+                    alert(z);
+                    document.getElementById("demo").innerHTML =z;
+                    return z;
+                }
+
+            
+                
+        </script>
+    </body>
+</html>
